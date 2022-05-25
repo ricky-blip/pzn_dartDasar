@@ -8,7 +8,7 @@ void main() {
   // Interpolation 
   var fullName = "Ricky Rinaldy Palembang";
   print('Nama Lengkap = $fullName');
-  print('Nama Lengkap = ${fullName}');
+  // print('Nama Lengkap = ${fullName}');
 
   // backslash
   var text = 'This is \'dart\' \$program ';
