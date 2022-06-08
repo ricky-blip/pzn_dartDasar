@@ -5,7 +5,11 @@ void main() {
     var hello = 'Hello from inner Function $name';
     print(hello);
   }
-  
-  sayHello();
 
+  sayHello();
+  // print(hello); // ERROR: hello is not defined
+}
+
+void contoh() {
+  // sayHello(); // ERROR: sayHello is not defined
 }
